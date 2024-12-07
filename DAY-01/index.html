@@ -1,30 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Advent of Frontend Day 1">
     <title>Advent of Frontend Day 1</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main>
       <div id="input-container">
-        <span class="lock light">
+        <div class="lock light">
           <svg width="30" height="30" viewBox="0 0 86 112" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M41 10H45C58.8071 10 70 21.1929 70 35V53L16 53V35C16 21.1929 27.1929 10 41 10ZM6.0096 53.8279C6.00321 53.5527 6 53.2767 6 53V35C6 15.67 21.67 0 41 0H45C64.33 0 80 15.67 80 35V53C80 53.2767 79.9968 53.5527 79.9904 53.8279C83.5273 55.3688 86 58.8956 86 63V102C86 107.523 81.5229 112 76 112H10C4.47715 112 0 107.523 0 102V63C0 58.8956 2.47266 55.3688 6.0096 53.8279Z" fill="#26C9C3"/>
           </svg>
-        </span>
+        </div>
 
-        <span class="lock dark">
+        <div class="lock dark">
           <svg width="30" height="30" viewBox="0 0 86 112" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M41 10H45C58.8071 10 70 21.1929 70 35V53L16 53V35C16 21.1929 27.1929 10 41 10ZM6.0096 53.8279C6.00321 53.5527 6 53.2767 6 53V35C6 15.67 21.67 0 41 0H45C64.33 0 80 15.67 80 35V53C80 53.2767 79.9968 53.5527 79.9904 53.8279C83.5273 55.3688 86 58.8956 86 63V102C86 107.523 81.5229 112 76 112H10C4.47715 112 0 107.523 0 102V63C0 58.8956 2.47266 55.3688 6.0096 53.8279Z" fill="#191349"/>
           </svg>
-        </span>
+        </div>
 
-        <span id="separator"></span>
+        <div id="separator"></div>
 
+        <label title="Password" for="password-input"></label>
         <input id="password-input" type="text" />
         
         <div id="eye">
-          <button class="eye-btn">
+          <button class="eye-btn" aria-label="Display password">
             <div id="full-eye">
               <svg width="30" height="30" viewBox="0 0 110 107" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M105 71C105 71 82.6142 102 55 102C27.3858 102 5 71 5 71" stroke="#26C9C3" stroke-width="10" stroke-linecap="round"/>
