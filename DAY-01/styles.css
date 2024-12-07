@@ -1,0 +1,85 @@
+:root {
+  --light-blue: #26C9C3;
+  --dark-blue: #191349;
+  --background: #EFF0EF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+main {
+  height: 12vh;
+}
+
+body {
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-container {
+  display: flex;
+  gap: 1rem;
+  width: 400px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  align-items: stretch;
+}
+
+input {
+  all: unset;
+  flex: 1;
+  padding: 0 0.5rem;
+}
+
+#eye {
+  width: 30;
+  height: 30;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+}
+
+#separator {
+  width: 0.1rem;  
+  background-color: white;
+}
+
+.lock {
+  align-self: center;
+}
+
+.eye-btn {
+  background-color: var(--dark-blue);
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+}
+
+.eye-btn svg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.eye-btn #full-eye svg {
+  top: 50%;
+  left: 50%;
+}
+
+.eye-btn #half-eye svg {
+  top: 30%;
+  left: 18%;
+  transform: rotate(180deg);
+  transition: all 1s;
+}
