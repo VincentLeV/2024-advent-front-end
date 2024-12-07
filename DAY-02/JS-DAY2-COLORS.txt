@@ -1,0 +1,13 @@
+input background color: #F3F3F3
+input border color: #DADADA
+
+selected blue: #1AAAF2
+
+font: Avenir
+input label: 42px
+small input label: 32px
+
+input text: 42px
+
+movie title size: 42px
+movie year size: 32px
