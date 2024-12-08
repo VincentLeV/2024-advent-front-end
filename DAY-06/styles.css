@@ -1,0 +1,97 @@
+:root {
+  --border-color: #dbdbdb;
+  --input-bg-color: #f4f4f4;
+  --icon-color: #ff008c;
+  --tooltip-beak-size: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40vw;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--input-bg-color);
+  padding: 1.5rem 1rem;
+}
+
+input {
+  border: none;
+  background-color: var(--input-bg-color);
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.copy-button-container {
+  position: relative;
+}
+
+.tooltip-wrapper {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.tooltip-wrapper.hidden {
+  display: none;
+}
+
+.copy-button {
+  border: none;
+  cursor: pointer;
+
+  svg path {
+    fill: var(--icon-color);
+  }
+}
+
+.tooltip-container {
+  position: relative;
+
+  .tooltip {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  
+  .beak {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: calc(var(--tooltip-beak-size) - 2px) solid transparent;
+    border-right: calc(var(--tooltip-beak-size) - 2px) solid transparent;
+    
+    border-top: var(--tooltip-beak-size) solid black;
+  }
+}
+
+

@@ -1,0 +1,9 @@
+COLORS
+Icon Color: #ff008c
+Border Color: #dbdbdb
+Input Background Color: #f4f4f4
+
+Border Radius: 10px
+
+Font: Roboto Mono
+Font Size: 20px
