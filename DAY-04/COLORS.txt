@@ -1,0 +1,3 @@
+Light Green: #CAE3DB
+Middle Green: #698662
+Dark Green: #536A4E
