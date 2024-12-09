@@ -1,0 +1,11 @@
+input background color: #EDEDED
+input stroke color: #CFCECE
+focus border color: #0015FF
+rounded border: 10px
+
+font: Inter - https://fonts.google.com/specimen/Inter
+default label size: 14px bold
+
+input text size: 24px regular
+
+slug text size: 16px regular

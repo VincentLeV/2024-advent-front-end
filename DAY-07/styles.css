@@ -1,0 +1,48 @@
+:root {
+  --border-color: #CFCECE;
+  --input-bg-color: #EDEDED;
+  --input-outline-color: #0015FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  border: 3px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--input-bg-color);
+  padding: 1.5rem 3rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  margin-bottom: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input {
+  all: unset;
+  background-color: var(--input-bg-color);
+  width: 100%;
+  font-size: 24px;
+}
+
+.slug {
+  font-size: 16px;
+}
