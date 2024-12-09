@@ -1,0 +1,10 @@
+input background color: #1E1E1E
+close icon color: #6b6b6b
+hover close icon color: #ff0000
+input text color: #fff
+
+Inter - https://fonts.google.com/specimen/Inter
+
+label: Inter 18 / Regular
+
+Tag: Inter 24 / Regular
