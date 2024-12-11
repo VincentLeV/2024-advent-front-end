@@ -1,0 +1,10 @@
+Inter - https://fonts.google.com/specimen/Inter
+
+Label - Inter / 16 / Bold
+Input Text - Inter / 24 / Regular
+Radio and Checkbox Content - Inter / 24 / Regular
+Submit Button - Inter / 24 / Bold
+
+Input Border - #9A9A9A
+Submit Button Background - #33ff01
+Text Color - #ffffff
