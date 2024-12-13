@@ -1,0 +1,79 @@
+:root {
+  --green: #0FFF2F;
+  --black: #000000;
+  --gray: #3f3f3f;
+  --position: 2.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body,
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+}
+
+#speed-dial {
+  border: none;
+  width: 90px;
+  height: 90px;
+  background-color: var(--green);
+  position: fixed;
+  bottom: var(--position);
+  right: var(--position);
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.social-media-button {
+  border: none;
+  background-color: var(--gray);
+  border-radius: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: var(--position);
+  right: var(--position);
+  opacity: 0;
+}
+
+.spin-out {
+  animation: spin-out 0.5s linear;
+}
+
+.spin-in {
+  animation: spin-in 0.5s linear forwards;
+}
+
+@keyframes spin-out {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes spin-in {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
