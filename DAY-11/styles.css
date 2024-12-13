@@ -1,0 +1,39 @@
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #131313;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Krona One";
+}
+
+body,
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+}
+
+.clock-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+.clock {
+  padding: 0.5rem;
+  font-size: 16px;
+}
