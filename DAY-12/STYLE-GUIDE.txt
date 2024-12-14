@@ -1,0 +1,6 @@
+DM Serif Display - https://fonts.google.com/specimen/DM+Serif+Display
+
+Quote - DM Serif Display / 120px font size / 110px line height / Italic
+
+Quote color: #4B4035
+Quotation mark color: #A07C5B

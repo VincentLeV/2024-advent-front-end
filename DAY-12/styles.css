@@ -1,0 +1,35 @@
+:root { 
+  --color: #4B4035;
+  --quotation-mark-color: #A07C5B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Serif Display";
+}
+
+body,
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff url("PAPER-TEXTURE.jpeg") no-repeat center;
+}
+
+main {
+  padding: 0 5rem 0 5rem;
+}
+
+.quote {
+  font-size: 120px;
+  line-height: 110px; 
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
