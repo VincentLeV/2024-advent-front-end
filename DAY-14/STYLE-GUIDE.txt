@@ -1,0 +1,8 @@
+Font - Avenir
+
+Dropdown Text - 18px / Roman
+
+Input Background: #F3F3F3
+Input Border Color: #DADADA
+
+Input Rounded Corners: 10px
