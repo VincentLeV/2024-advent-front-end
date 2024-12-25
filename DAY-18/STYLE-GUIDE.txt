@@ -1,0 +1,18 @@
+Inter - https://fonts.google.com/specimen/Inter
+Krona One - https://fonts.google.com/specimen/Krona+One
+
+Dollar Amount - Inter / Bold / 112px / line-height: 136px
+Dollar Sign - Inter / Bold / 62px / line-height: 75px
+
+Small Text - Inter / 14px / line-height: 23px
+
+Subheading (Pro and Team) - Krona One / 26px / line-height: 33px
+Description - Inter / 18px / Bold / line-height: 23px
+Checklist - Inter / 18px / line-height: 25px / 20px after each list item
+
+Toggle - Inter/ Bold / 16px
+
+Background - #EEEEEE
+Card Background - #fff
+Text Color - #000
+Border Color - #E8E8E8
